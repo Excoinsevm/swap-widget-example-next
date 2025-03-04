@@ -29,11 +29,11 @@ const widgetConfig: MayanWidgetConfigType = {
     },
     tokens: {
         to: {
-            solana: ['DezXAZ8z7PnrnRJjz3wXBoRgixCa6xjnB7YaB1pPB263'],
+            bsc: ['0xbff48c00677f536478b50bdc608dee0306f162d6'],
 
         }
     },
-    destinationChains: ['solana'],
+    destinationChains: ['bsc'],
     // please visit https://docs.mayan.finance/integration/swap-widget to see the full list of options
 };
 const MayanWidgetSolana = () => {
@@ -85,7 +85,7 @@ const MayanWidgetSolana = () => {
             </div>
 
             <Script
-                src="https://cdn.mayan.finance/widget_solana-0-4-5.js"
+                src="https://cdn.mayan.finance/mayan_widget_v_1_2_3.js"
                 integrity="sha256-mTVQLKvE422WDwtZQUcz/9u5ZK3T1vMfSO0omQvla0E="
                 crossOrigin="anonymous"
                 onReady={handleLoadMayanWidget}
